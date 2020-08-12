@@ -1,0 +1,10 @@
+<div id="element" data-mage-init='{"accordion":{"openedState": "active", "collapsible": true, "active": false, "multipleCollapsible": false}}'>
+    <div data-role="collapsible">
+        <div data-role="trigger">
+            <span>Widget Accordion</span>
+        </div>
+    </div>
+    <div data-role="content">
+        <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('widget')->toHtml(); ?>
+    </div>
+</div>
